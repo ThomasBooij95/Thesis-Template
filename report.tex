@@ -1,0 +1,36 @@
+\documentclass{tudelft-report}
+\usepackage{setspace}
+\doublespacing
+\begin{document}
+
+%% Use Roman numerals for the page numbers of the title pages and table of
+%% contents.
+\frontmatter
+
+\title[The evaluation of state of the art methods.]{Dimensionality Reduction applied to Imaging Mass Spectrometry}
+\author{Thomas Booij}
+\affiliation{Technische Universiteit Delft}
+\coverimage{cover.jpg}
+\makecover
+
+%% Include an optional title page.
+\input{title}
+
+\input{preface}
+
+\tableofcontents
+
+%% Use Arabic numerals for the page numbers of the chapters.
+\mainmatter
+
+\input{chapter-1}
+
+%% Use letters for the chapter numbers of the appendices.
+\appendix
+
+%\input{appendix-a}
+
+\bibliography{report}
+
+\end{document}
+
